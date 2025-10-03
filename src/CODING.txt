@@ -268,7 +268,7 @@ common in Teem, and adding their protoypes would be onerous (and for similar
 reasons -Wmissing-declarations is not helpful).  So what has proven useful for
 development is:
 
-  gcc -O2 -std=c89 -pedantic \
+  gcc -O2 -std=c99 -pedantic \
    -W -Wall -Wextra -Wno-long-long -Wno-overlength-strings \
    -fstrict-aliasing -Wstrict-aliasing=2 -fstrict-overflow -Wstrict-overflow=5 \
    -ftrapv -fshort-enums -fno-common \
