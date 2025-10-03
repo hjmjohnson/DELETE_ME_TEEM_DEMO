@@ -84,8 +84,10 @@ typedef unsigned long long airULLong;
 #  define AIR_ULLONG(x)  x##ull
 #endif
 
-/* ---- BEGIN non-NrrdIO */
+#ifndef AIR_PI
 #define AIR_PI 3.14159265358979323846
+#endif
+/* ---- BEGIN non-NrrdIO */
 #define AIR_E  2.71828182845904523536
 /* ---- END non-NrrdIO */
 
